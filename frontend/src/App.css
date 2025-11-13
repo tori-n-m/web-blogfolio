@@ -40,3 +40,57 @@
 .read-the-docs {
   color: #888;
 }
+
+/* src/App.css */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.site-header .header-icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.site-header .site-title {
+  font-size: 1.6rem;
+  margin-left: 1rem;
+  color: #0b2239;
+}
+
+.nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #0b2239;
+  transition: opacity .2s ease;
+}
+
+.nav a:hover {
+  opacity: 0.7;
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+  padding: 1rem 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+.site-footer .footer-icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+
